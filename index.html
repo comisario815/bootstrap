@@ -9,11 +9,14 @@
 </head>
 <body>
 
+    <!-- Título principal -->
     <h1 class="bg-dark text-white text-center p-3 display-4">
         Mis videojuegos favoritos
     </h1>
+    
+    <!-- Párrafo de introducción -->
     <p class="text-primary text-center mt-4">
-        Descubre mis tres videojuegos favoritos.
+        Descubre mis tres videojuegos favoritos: GTA VI, Rocket League y FC 27.
     </p>
 
     <!-- Botones -->
@@ -24,6 +27,49 @@
         <a href="https://store.steampowered.com" class="btn btn-success" target="_blank">
             Ir a Steam
         </a>
+    </div>
+
+    <!-- Contenedor con Grid para las 3 tarjetas -->
+    <div class="container mt-4 mb-5">
+        <div class="row g-3">
+            
+            <!-- Tarjeta 1: GTA VI -->
+            <div class="col-md-4">
+                <div class="card w-100 shadow">
+                    <img src="gta6.jpg" class="card-img-top" alt="GTA VI" style="height: 220px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">GTA VI</h5>
+                        <p class="card-text">La esperada nueva entrega de Rockstar Games ambientada en el estado de Leonida y Vice City, con una aventura criminal sin precedentes.</p>
+                        <a href="https://www.rockstargames.com" class="btn btn-primary" target="_blank">Más información</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2: Rocket League -->
+            <div class="col-md-4">
+                <div class="card w-100 shadow">
+                    <img src="rocket leage.jpg" class="card-img-top" alt="Rocket League" style="height: 220px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Rocket League</h5>
+                        <p class="card-text">Un frenético juego de deportes arcade que combina el fútbol tradicional con la conducción acrobática de vehículos propulsados por cohetes.</p>
+                        <a href="https://www.rocketleague.com" class="btn btn-success" target="_blank">Más información</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3: FC 27 -->
+            <div class="col-md-4">
+                <div class="card w-100 shadow">
+                    <img src="fc27.jpg" class="card-img-top" alt="FC 27" style="height: 220px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">EA Sports FC 27</h5>
+                        <p class="card-text">El simulador de fútbol definitivo que te permite competir con los mejores equipos, ligas y jugadores del mundo con un realismo impresionante.</p>
+                        <a href="https://www.ea.com/es-es/games/ea-sports-fc" class="btn btn-danger" target="_blank">Más información</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- Bootstrap JS Bundle CDN -->
